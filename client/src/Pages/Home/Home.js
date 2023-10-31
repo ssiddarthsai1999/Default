@@ -1,10 +1,11 @@
 import React from 'react'
-import HomeC from '../../Components/HomeC'
+import HomeC from "../../Components/Home/HomeC"
 
 function Home() {
   return (
-    <div>
+    <div >
       <HomeC/>
+      
     </div>
   )
 }

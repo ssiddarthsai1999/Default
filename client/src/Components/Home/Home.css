@@ -1,0 +1,20 @@
+.homebg{
+    background-image: url("../../Assets/max.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+.homebg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0); /* Adjust the last value (0.5) to control the darkness */
+    z-index: 1;
+}
+.text-black {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Adjust values as needed */
+}

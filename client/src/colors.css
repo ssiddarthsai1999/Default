@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #007bff; /* Your primary color */
+  --secondary-color: #6c757d; /* Your secondary color */
+  --text-color: rgb(223, 223, 223);
+  --background-color:rgb(8, 8, 8);
+}
+
+body{
+ background-color: var(--background-color);
+ color: var(--text-color);
+font-family: 'Inter', sans-serif;
+}
+/* In your CSS file */
+h1 {
+  font-size: 3.5rem; /* Adjust size as needed */
+  font-weight: 800; /* Bold */
+  font-style: italic;
+
+}
+
+h2 {
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: 700; /* Semi-bold */
+}
+
+h3 {
+  font-size: 1.75rem; /* Adjust size as needed */
+  font-weight: 600; /* Semi-bold */
+}
+
+h4 {
+  font-size: 1.5rem; /* Adjust size as needed */
+  font-weight: 500; /* Semi-bold */
+}
+
+h5 {
+  font-size: 1.25rem; /* Adjust size as needed */
+  font-weight: 300; /* Semi-bold */
+}
+
+h6 {
+  font-size: 1rem; /* Adjust size as needed */
+  font-weight: 200; /* Semi-bold */
+  
+}
+ul{
+    font-size: 1rem; /* Adjust size as needed */
+  font-weight: 200; /* Semi-bold */
+}
